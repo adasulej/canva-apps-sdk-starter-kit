@@ -20,18 +20,14 @@ export const App = () => {
         <Text>
           <FormattedMessage
             defaultMessage="
-              To make changes to this app, edit the <code>src/app.tsx</code> file,
-              then close and reopen the app in the editor to preview the changes.
+              This is a sample app.
             "
-            description="Instructions for how to make changes to the app. Do not translate <code>src/app.tsx</code>."
-            values={{
-              code: (chunks) => <code>{chunks}</code>,
-            }}
+            description="Text content for the sample app."
           />
         </Text>
         <Button variant="primary" onClick={onClick} stretch>
           {intl.formatMessage({
-            defaultMessage: "Do something cool",
+            defaultMessage: "Add text",
             description:
               "Button text to do something cool. Creates a new text element when pressed.",
           })}
