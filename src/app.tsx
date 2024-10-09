@@ -27,7 +27,7 @@ export const App = () => {
         </Text>
         <Button variant="primary" onClick={onClick} stretch>
           {intl.formatMessage({
-            defaultMessage: "Add text",
+            defaultMessage: "Add",
             description:
               "Button text to do something cool. Creates a new text element when pressed.",
           })}
