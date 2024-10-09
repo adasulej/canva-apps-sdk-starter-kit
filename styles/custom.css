@@ -1,0 +1,66 @@
+.navigationStyle {
+    padding: 12px;
+    display: flex;
+    cursor: pointer;
+    margin-left: -16px
+  }
+  .rowSpacing{
+    margin-top: var(--ui-kit-space-1);
+    margin-bottom:var(--ui-kit-space-1)
+  }
+  
+.parentDiv >div>p {
+  color:var(--ui-kit-color-typography-tertiary)
+}
+.parentDiv >div>p:hover{
+color:var(--ui-kit-color-typography-primary)
+}
+.textColor>div>p{
+color:var(--ui-kit-color-typography-primary)
+}
+.parentDiv1>div{
+  height:30px;
+}
+.moreOptions{
+  cursor: pointer;
+  padding-top:var(--ui-kit-space-1);
+}
+.moreOptions>p{
+  color:var(--ui-kit-color-typography-primary)
+}
+.moreOptions:hover>p{
+  color:var(--ui-kit-color-primary)
+}
+
+.footer{
+  margin-top: var(--ui-kit-space-1);
+  cursor: pointer;
+}
+.footer>p{
+  color:var(--ui-kit-color-typography-tertiary)
+}
+.footer>div>p{
+  color:var(--ui-kit-color-typography-tertiary)
+}
+.text>p{
+  color:var(--ui-kit-color-typography-tertiary)
+}
+.bodyText{
+  margin-top: var(--ui-kit-space-1);
+  margin-bottom:var(--ui-kit-space-1)
+}
+.bodyText>p{
+  color:var(--ui-kit-color-typography-primary);
+}
+.navigation{
+  padding-left: var(--ui-kit-space-1);
+  padding-right: var(--ui-kit-space-1);
+  padding-top: var(--ui-kit-space-1);
+  padding-bottom: var(--ui-kit-space-1);
+  text-align: center;
+
+}
+
+.marginTop {
+  margin-top: 250px; 
+}
