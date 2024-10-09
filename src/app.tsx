@@ -20,8 +20,7 @@ export const App = () => {
         <Text>
           <FormattedMessage
             defaultMessage="
-              This is a sample app.
-            "
+              This is a sample app. "
             description="Text content for the sample app."
           />
         </Text>
